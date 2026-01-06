@@ -1,1 +1,3 @@
-# DCCG_FINAL_PROJECT
+#設計概念
+#專案特點
+#生成邏輯
