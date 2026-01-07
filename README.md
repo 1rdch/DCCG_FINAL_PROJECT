@@ -72,7 +72,7 @@ conda config --add channels conda-forge
 接下來，建立一個新的環境，並且在此**明確指定 Python 版本為 3.9.10**，這個版本是 **Rhino 8 隨附的 Python 版本**。
 
 ```python
-conda create -n DCCG python=3.9.10 compas pyside6
+conda create -n DCCG_FINAL_PROJECT python=3.9.10 compas pyside6
 ```
 
 回答**y**以繼續執行
@@ -83,11 +83,11 @@ conda create -n DCCG python=3.9.10 compas pyside6
 
 
 ```python
-conda activate DCCG
+conda activate DCCG_FINAL_PROJECT
 ```
    
 
-當環境被啟用後，**環境名稱會顯示在指令提示字元前方**。在這個例子中是 **(DCCG)**。接著請繼續安裝 **COMPAS_viewer**：
+當環境被啟用後，**環境名稱會顯示在指令提示字元前方**。在這個例子中是 **(DCCG_FINAL_PROJECT)**。接著請繼續安裝 **COMPAS_viewer**：
 
 ```python
 pip install compas_viewer
@@ -104,7 +104,7 @@ COMPUS安裝完成。
 啟用你的環境，更新已安裝的套件，並安裝所需的套件。
 
 ```python
-conda activate DCCG
+conda activate DCCG_FINAL_PROJECT
 ```
 ```python
 conda update --all
