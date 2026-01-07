@@ -114,3 +114,7 @@ conda install pandas libpysal contextily geopandas compas_cgal
 ```
 
 現在可以執行程式了！
+
+#成果
+![alt text](image-2.png)
+![alt text](image-3.png)
